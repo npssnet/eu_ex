@@ -31,7 +31,7 @@ This Script can check the VPS amount in your account automatically and renew the
        # https://mailparser.io   
        MAILPARSER_DOWNLOAD_URL_ID: ${{ secrets.MAILPARSER_DOWNLOAD_URL_ID }}
    ```
-
+ 
 ## Mail forwarding and mailparser settings
 ### Mail forwarding
 
