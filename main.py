@@ -78,9 +78,9 @@ MAILPARSER_DOWNLOAD_BASE_URL = "https://files.mailparser.io/d/"
 
 # Telegram Bot Push https://core.telegram.org/bots/api#authorizing-your-bot
 # Obtained via @BotFather application, for example: 1077xxx4424:AAFjv0FcqxxxxxxgEMGfi22B4yh15R5uw
-TG_BOT_TOKEN = ""
+TG_BOT_TOKEN = os.environ["TG_BOT_TOKEN"]
 # User, group or channel ID, for example: 129xxx206
-TG_USER_ID = ""
+TG_USER_ID = os.environ["TG_USER_ID"]
 # Build your own API reverse proxy address for use when the network environment is inaccessible,
 # and keep the default if the network is normal.
 TG_API_HOST = "https://api.telegram.org"
