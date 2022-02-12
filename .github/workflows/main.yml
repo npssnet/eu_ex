@@ -33,4 +33,6 @@ jobs:
           TG_BOT_TOKEN: ${{ secrets.TG_BOT_TOKEND}}
           # https://mailparser.io  
           MAILPARSER_DOWNLOAD_URL_ID: ${{ secrets.MAILPARSER_DOWNLOAD_URL_ID }}
+          TRUECAPTCHA_USERID: ${{ secrets.TRUECAPTCHA_USERID }}
+          TRUECAPTCHA_APIKEY: ${{ secrets.TRUECAPTCHA_APIKEY }}
         run: python main.py
